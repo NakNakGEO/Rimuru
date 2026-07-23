@@ -22,7 +22,9 @@ My main areas of interest are:
 - backend services, APIs, and system architecture
 - local AI infrastructure, model serving, and orchestration
 - machine learning, research systems, and automation
-- server, network, deployment, and observability infrastructure
+- server, network, virtualization, cluster, and deployment infrastructure
+- VMware vCenter/vSphere environments and node-server operations
+- DevOps, CI/CD, observability, and production reliability
 - enterprise workflow systems, access control, and operational reliability
 
 ## Technical stack
@@ -82,6 +84,13 @@ My main areas of interest are:
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=111827)
 ![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white)
+![Kali Linux](https://img.shields.io/badge/Kali%20Linux-557C94?style=for-the-badge&logo=kalilinux&logoColor=white)
+![VMware vSphere](https://img.shields.io/badge/VMware%20vSphere-607078?style=for-the-badge&logo=vmware&logoColor=white)
+![vCenter](https://img.shields.io/badge/vCenter-1D428A?style=for-the-badge&logo=vmware&logoColor=white)
+![ESXi Clusters](https://img.shields.io/badge/ESXi%20Clusters-0091DA?style=for-the-badge&logo=vmware&logoColor=white)
+![Node Servers](https://img.shields.io/badge/Node%20Servers-34495E?style=for-the-badge&logo=serverfault&logoColor=white)
+![DevOps](https://img.shields.io/badge/DevOps-0A66C2?style=for-the-badge&logo=azuredevops&logoColor=white)
+![CI/CD](https://img.shields.io/badge/CI%2FCD-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
@@ -91,7 +100,7 @@ My main areas of interest are:
 
 ### Engineering foundations
 
-**Object-oriented programming (OOP)** · system architecture · API design · asynchronous processing · data structures · distributed systems · CI/CD · observability · secure automation
+**Object-oriented programming (OOP)** · system architecture · API design · asynchronous processing · data structures · distributed systems · virtualization · clustering · CI/CD · observability · secure automation
 
 ## Current focus
 
@@ -121,11 +130,11 @@ My main areas of interest are:
       <p><strong>Focus:</strong> inference routing, model serving, GPU utilization, indexing, privacy, and reliability.</p>
     </td>
     <td width="50%" valign="top">
-      <h3 align="center">Infrastructure & Operations</h3>
+      <h3 align="center">Infrastructure, Virtualization & DevOps</h3>
       <p>
-        Practical work across servers, networking, deployment environments, system reliability, and enterprise workflow operations.
+        Practical work across VMware vCenter/vSphere environments, ESXi clusters, node servers, Linux systems, networking, deployment pipelines, monitoring, and enterprise operations.
       </p>
-      <p><strong>Focus:</strong> Linux systems, Docker, networking, deployment, monitoring, access control, and maintainable production systems.</p>
+      <p><strong>Focus:</strong> virtualization, cluster setup, server and network operations, DevOps, CI/CD, observability, access control, and maintainable production systems.</p>
     </td>
   </tr>
 </table>
