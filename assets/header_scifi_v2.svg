@@ -1,0 +1,101 @@
+<svg width="1200" height="340" viewBox="0 0 1200 340" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="340" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#040816"/>
+      <stop offset="0.46" stop-color="#08142B"/>
+      <stop offset="1" stop-color="#120A2A"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="250" y1="65" x2="950" y2="265" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#22D3EE"/>
+      <stop offset="0.48" stop-color="#60A5FA"/>
+      <stop offset="1" stop-color="#A78BFA"/>
+    </linearGradient>
+    <linearGradient id="lineGlow" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#22D3EE" stop-opacity="0.0"/>
+      <stop offset="0.25" stop-color="#22D3EE" stop-opacity="0.9"/>
+      <stop offset="0.65" stop-color="#A78BFA" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#A78BFA" stop-opacity="0.0"/>
+    </linearGradient>
+    <radialGradient id="glowLeft" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(188 176) rotate(12) scale(450 270)">
+      <stop stop-color="#0EA5E9" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#0EA5E9" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowRight" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1002 58) rotate(140) scale(360 250)">
+      <stop stop-color="#8B5CF6" stop-opacity="0.24"/>
+      <stop offset="1" stop-color="#8B5CF6" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="microGrid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M28 0H0V28" fill="none" stroke="#93C5FD" stroke-opacity="0.05" stroke-width="1"/>
+    </pattern>
+    <pattern id="majorGrid" width="84" height="84" patternUnits="userSpaceOnUse">
+      <path d="M84 0H0V84" fill="none" stroke="#A78BFA" stroke-opacity="0.05" stroke-width="1"/>
+    </pattern>
+    <filter id="softBlur" x="-25%" y="-25%" width="150%" height="150%">
+      <feGaussianBlur stdDeviation="8"/>
+    </filter>
+    <filter id="textGlow" x="-25%" y="-80%" width="150%" height="260%">
+      <feGaussianBlur stdDeviation="6" result="g"/>
+      <feMerge>
+        <feMergeNode in="g"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="340" rx="24" fill="url(#bg)"/>
+  <rect width="1200" height="340" rx="24" fill="url(#microGrid)"/>
+  <rect width="1200" height="340" rx="24" fill="url(#majorGrid)"/>
+  <rect width="1200" height="340" rx="24" fill="url(#glowLeft)"/>
+  <rect width="1200" height="340" rx="24" fill="url(#glowRight)"/>
+
+  <g opacity="0.75">
+    <circle cx="83" cy="76" r="1.9" fill="#E0F2FE"/>
+    <circle cx="174" cy="45" r="1.6" fill="#A5F3FC"/>
+    <circle cx="262" cy="92" r="1.4" fill="#93C5FD"/>
+    <circle cx="419" cy="32" r="1.7" fill="#C4B5FD"/>
+    <circle cx="585" cy="66" r="1.5" fill="#E0E7FF"/>
+    <circle cx="812" cy="42" r="1.7" fill="#C4B5FD"/>
+    <circle cx="1023" cy="74" r="1.5" fill="#A5F3FC"/>
+    <circle cx="1094" cy="121" r="1.8" fill="#BAE6FD"/>
+    <circle cx="1149" cy="287" r="1.4" fill="#E0F2FE"/>
+    <circle cx="194" cy="284" r="1.5" fill="#C4B5FD"/>
+    <circle cx="371" cy="295" r="1.4" fill="#A5F3FC"/>
+    <circle cx="917" cy="278" r="1.8" fill="#DDD6FE"/>
+  </g>
+
+  <g opacity="0.55">
+    <path d="M56 270C154 235 207 268 294 230C396 186 478 212 564 193C662 171 712 190 803 168C913 141 1011 158 1142 105" stroke="#1D4ED8" stroke-opacity="0.65" stroke-width="1"/>
+    <path d="M62 286C162 253 223 289 316 252C413 213 503 233 592 215C688 195 743 210 844 189C955 166 1047 174 1134 144" stroke="url(#lineGlow)" stroke-width="1.6"/>
+    <circle cx="592" cy="215" r="4" fill="#60A5FA"/>
+    <circle cx="592" cy="215" r="15" fill="#60A5FA" fill-opacity="0.22" filter="url(#softBlur)"/>
+    <circle cx="844" cy="189" r="4" fill="#A78BFA"/>
+    <circle cx="316" cy="252" r="3" fill="#22D3EE"/>
+  </g>
+
+  <g opacity="0.32" stroke="url(#accent)" stroke-width="1.2">
+    <path d="M128 140H212L240 112H310"/>
+    <path d="M896 118H966L994 90H1062"/>
+    <path d="M111 215H178L207 243H272"/>
+    <path d="M934 228H1002L1038 257H1093"/>
+  </g>
+
+  <g opacity="0.65">
+    <rect x="104" y="127" width="22" height="22" rx="4" stroke="#22D3EE" stroke-opacity="0.45"/>
+    <rect x="1073" y="74" width="18" height="18" rx="3" stroke="#A78BFA" stroke-opacity="0.45"/>
+    <rect x="1080" y="248" width="16" height="16" rx="3" stroke="#60A5FA" stroke-opacity="0.45"/>
+    <circle cx="308" cy="112" r="3" fill="#22D3EE"/>
+    <circle cx="994" cy="90" r="3" fill="#A78BFA"/>
+    <circle cx="207" cy="243" r="3" fill="#60A5FA"/>
+    <circle cx="1038" cy="257" r="3" fill="#22D3EE"/>
+  </g>
+
+  <g text-anchor="middle">
+    <text x="600" y="110" fill="#7DD3FC" font-family="JetBrains Mono, Consolas, monospace" font-size="14" letter-spacing="4">› AI SYSTEMS // AUTOMATION // SOFTWARE</text>
+    <text x="600" y="162" fill="url(#accent)" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="54" font-weight="800" letter-spacing="8" filter="url(#textGlow)">NAKNAKGEO</text>
+    <text x="600" y="206" fill="#E5E7EB" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="21" font-weight="600" letter-spacing="3">SCIFI DEV IDENTITY · AI ENGINEERING · INTELLIGENT AUTOMATION</text>
+    <line x1="376" y1="228" x2="824" y2="228" stroke="url(#lineGlow)" stroke-width="2.4" stroke-linecap="round"/>
+    <text x="600" y="265" fill="#94A3B8" font-family="JetBrains Mono, Consolas, monospace" font-size="16" letter-spacing="1.7">BUILDING AGENTS, SYSTEMS, AND TOOLS FOR THE FUTURE</text>
+  </g>
+
+  <rect x="1" y="1" width="1198" height="338" rx="23" stroke="url(#accent)" stroke-opacity="0.28" stroke-width="2"/>
+</svg>
