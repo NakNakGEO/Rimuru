@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./assets/header.svg" width="100%" alt="Ratanak Suon — Software Engineering, AI Systems and Automation" />
+  <img src="./assets/header.svg" width="100%" alt="NakNakGEO — AI engineering, agentic systems, and intelligent automation" />
 </div>
 
 <br>
@@ -11,16 +11,24 @@
 
 </div>
 
-## About me
+## `> IDENTITY`
 
-I am a software developer focused on production systems, intelligent automation, and applied AI engineering.
+**NakNakGEO** is my developer identity for building serious software, AI systems, and intelligent automation.
 
-- Building backend services, workflow platforms, and data-intensive applications
-- Developing private AI systems that combine LLMs, agents, machine learning, and automation
-- Exploring local model infrastructure, knowledge systems, and multi-agent orchestration
-- Designing tools that turn complex technical decisions into reliable software workflows
+```text
+SYSTEM STATUS   : ONLINE
+PRIMARY MODE    : SOFTWARE + AI ENGINEERING
+CURRENT VECTOR  : AGENTS · LOCAL AI · AUTOMATION · SYSTEM ARCHITECTURE
+```
 
-## Core stack
+I focus on:
+
+- AI-driven tools and specialized agent workflows
+- backend services, workflow platforms, and data-intensive systems
+- local model infrastructure, repository intelligence, and connected knowledge
+- research-oriented engineering for intelligent and reliable products
+
+## `> CORE STACK`
 
 <div align="center">
 
@@ -34,7 +42,7 @@ I am a software developer focused on production systems, intelligent automation,
 
 </div>
 
-## Current engineering focus
+## `> ACTIVE SYSTEMS`
 
 <table>
   <tr>
@@ -43,14 +51,14 @@ I am a software developer focused on production systems, intelligent automation,
       <p>
         A private AI engineering environment for coordinating specialized agents, development workflows, research tasks, project memory, and local or cloud model execution.
       </p>
-      <p><strong>Focus:</strong> orchestration, tool use, knowledge retrieval, evaluation, observability, and secure automation.</p>
+      <p><strong>Core:</strong> orchestration, tool use, knowledge retrieval, evaluation, observability, and secure automation.</p>
     </td>
     <td width="50%" valign="top">
       <h3 align="center">AI Trading Research System</h3>
       <p>
         A private multi-layer research platform combining market data, technical structure, machine learning, LLM reasoning, signal validation, and risk controls.
       </p>
-      <p><strong>Focus:</strong> data quality, regime detection, ensemble decisions, explainability, backtesting, and execution safety.</p>
+      <p><strong>Core:</strong> data quality, regime detection, ensemble decisions, explainability, backtesting, and execution safety.</p>
     </td>
   </tr>
   <tr>
@@ -59,52 +67,52 @@ I am a software developer focused on production systems, intelligent automation,
       <p>
         A distributed environment for running local models, coding agents, vector search, repository intelligence, and persistent project knowledge across multiple machines.
       </p>
-      <p><strong>Focus:</strong> inference routing, model serving, GPU utilization, indexing, privacy, and system reliability.</p>
+      <p><strong>Core:</strong> model serving, inference routing, GPU utilization, indexing, privacy, and reliability.</p>
     </td>
     <td width="50%" valign="top">
       <h3 align="center">Enterprise Automation</h3>
       <p>
         Backend services and workflow solutions for approvals, identity integration, reporting, business rules, and operational process automation.
       </p>
-      <p><strong>Focus:</strong> C#, SQL Server, APIs, workflow engines, access control, and maintainable production systems.</p>
+      <p><strong>Core:</strong> C#, SQL Server, APIs, workflow engines, access control, and production support.</p>
     </td>
   </tr>
 </table>
 
-> Most active projects are private because they contain proprietary architecture, internal workflows, research logic, or production-related integrations.
+> Most active projects are private because they contain internal architecture, proprietary workflows, research logic, or production-related integrations.
 
-## System direction
+## `> SYSTEM PIPELINE`
 
 ```text
-Market and enterprise data
-          ↓
-Reliable backend services
-          ↓
-Machine learning and LLM reasoning
-          ↓
-Specialized agents and orchestration
-          ↓
-Observable, secure automation
+DATA INPUTS
+    ↓
+RELIABLE BACKEND SERVICES
+    ↓
+MACHINE LEARNING + LLM REASONING
+    ↓
+SPECIALIZED AGENTS + ORCHESTRATION
+    ↓
+OBSERVABLE, SECURE AUTOMATION
 ```
 
-My long-term goal is to build an integrated AI engineering platform that can understand repositories, preserve project knowledge, support software development, coordinate specialized workers, and assist with high-quality technical decisions.
+My long-term direction is to build an integrated AI engineering platform that can understand repositories, preserve project knowledge, support software development, coordinate specialized workers, and improve technical decisions.
 
-## Engineering principles
+## `> ENGINEERING PROTOCOL`
 
-- Reliability before complexity
+- Reliability before unnecessary complexity
 - Evidence before automated decisions
-- Clear boundaries between AI reasoning and deterministic control
+- Deterministic control around AI reasoning
 - Private-by-default infrastructure for sensitive systems
-- Measurable performance, traceable actions, and safe failure modes
+- Traceable actions, measurable performance, and safe failure modes
 
-## GitHub activity
+## `> ACTIVITY SIGNAL`
 
 <div align="center">
-  <img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=NakNakGEO&bg_color=0d1117&color=c9d1d9&line=6366f1&point=38bdf8&area=true&hide_border=true" alt="GitHub contribution activity" />
+  <img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=NakNakGEO&bg_color=050816&color=cbd5e1&line=6366f1&point=22d3ee&area=true&hide_border=true" alt="NakNakGEO GitHub contribution activity" />
 </div>
 
 ---
 
 <div align="center">
-  <sub>Building serious systems quietly — architecture first, intelligence where it adds real value.</sub>
+  <sub>SCIFI AESTHETICS · REAL ENGINEERING · AI-FIRST THINKING</sub>
 </div>
