@@ -6,7 +6,7 @@
 
 <div align="center">
 
-[![Profile Views](https://komarev.com/ghpvc/?username=NakNakGEO&label=Profile%20views&color=6366f1&style=flat)](https://github.com/NakNakGEO)
+[![Profile Views](https://api.visitorbadge.io/api/visitors?path=NakNakGEO%2FRimuru&label=Profile%20Views&countColor=%236366f1&style=flat)](https://github.com/NakNakGEO)
 [![GitHub Followers](https://img.shields.io/github/followers/NakNakGEO?label=Followers&style=flat&color=2563eb)](https://github.com/NakNakGEO?tab=followers)
 
 </div>
