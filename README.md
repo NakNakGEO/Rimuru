@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./assets/header_scifi_v2.svg" width="100%" alt="NakNakGEO — AI engineering, agentic systems, and intelligent automation" />
+  <img src="./assets/header_profile_v3.svg" width="100%" alt="NakNakGEO — software engineering, AI systems, and automation" />
 </div>
 
 <br>
@@ -11,24 +11,18 @@
 
 </div>
 
-## `> IDENTITY`
+## About
 
-**NakNakGEO** is my developer identity for building serious software, AI systems, and intelligent automation.
+I build backend systems, AI-powered tools, and automation for real-world workflows.
 
-```text
-SYSTEM STATUS   : ONLINE
-PRIMARY MODE    : SOFTWARE + AI ENGINEERING
-CURRENT VECTOR  : AGENTS · LOCAL AI · AUTOMATION · SYSTEM ARCHITECTURE
-```
+My main areas of interest are:
 
-I focus on:
-
-- AI-driven tools and agent workflows
+- AI agents and developer tooling
 - backend services and system architecture
-- local model infrastructure and developer automation
-- research-oriented engineering for intelligent products
+- local AI infrastructure and model serving
+- machine learning, research systems, and automation
 
-## `> CORE STACK`
+## Core stack
 
 <div align="center">
 
@@ -42,21 +36,21 @@ I focus on:
 
 </div>
 
-## `> CURRENT SYSTEMS`
+## Current focus
 
 <table>
   <tr>
     <td width="50%" valign="top">
       <h3 align="center">Agentic AI Platform</h3>
       <p>
-        A private AI engineering environment for coordinating specialized agents, development workflows, research tasks, project memory, and local or cloud model execution.
+        A private engineering environment for coordinating specialized agents, development workflows, research tasks, project memory, and local or cloud model execution.
       </p>
       <p><strong>Focus:</strong> orchestration, tool use, knowledge retrieval, evaluation, observability, and secure automation.</p>
     </td>
     <td width="50%" valign="top">
-      <h3 align="center">AI Trading Research System</h3>
+      <h3 align="center">AI Trading Research</h3>
       <p>
-        A private multi-layer research platform combining market data, technical structure, machine learning, LLM reasoning, signal validation, and risk controls.
+        A private research platform combining market data, technical structure, machine learning, LLM reasoning, signal validation, and risk controls.
       </p>
       <p><strong>Focus:</strong> data quality, regime detection, ensemble decisions, explainability, backtesting, and execution safety.</p>
     </td>
@@ -67,7 +61,7 @@ I focus on:
       <p>
         A distributed environment for running local models, coding agents, vector search, repository intelligence, and persistent project knowledge across multiple machines.
       </p>
-      <p><strong>Focus:</strong> inference routing, model serving, GPU utilization, indexing, privacy, and system reliability.</p>
+      <p><strong>Focus:</strong> inference routing, model serving, GPU utilization, indexing, privacy, and reliability.</p>
     </td>
     <td width="50%" valign="top">
       <h3 align="center">Enterprise Automation</h3>
@@ -79,33 +73,17 @@ I focus on:
   </tr>
 </table>
 
-> Most active projects are private because they contain proprietary architecture, internal workflows, research logic, or production-related integrations.
+> Most active projects are private because they contain internal architecture, research logic, or production integrations.
 
-## `> SYSTEM DIRECTION`
-
-```text
-Market and enterprise data
-          ↓
-Reliable backend services
-          ↓
-Machine learning and LLM reasoning
-          ↓
-Specialized agents and orchestration
-          ↓
-Observable, secure automation
-```
-
-My long-term goal is to build an integrated AI engineering platform that can understand repositories, preserve project knowledge, support software development, coordinate specialized workers, and assist with high-quality technical decisions.
-
-## `> ENGINEERING PRINCIPLES`
+## Engineering approach
 
 - Reliability before complexity
 - Evidence before automated decisions
 - Clear boundaries between AI reasoning and deterministic control
-- Private-by-default infrastructure for sensitive systems
-- Measurable performance, traceable actions, and safe failure modes
+- Privacy for sensitive systems
+- Measurable performance and traceable actions
 
-## `> GITHUB ACTIVITY`
+## GitHub activity
 
 <div align="center">
   <img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=NakNakGEO&bg_color=0d1117&color=c9d1d9&line=6366f1&point=38bdf8&area=true&hide_border=true" alt="GitHub contribution activity" />
@@ -114,5 +92,5 @@ My long-term goal is to build an integrated AI engineering platform that can und
 ---
 
 <div align="center">
-  <sub>Scifi aesthetics. Real engineering. AI-first thinking.</sub>
+  <sub>Building reliable software and useful AI systems.</sub>
 </div>
