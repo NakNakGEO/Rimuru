@@ -1,66 +1,78 @@
 <svg width="1200" height="340" viewBox="0 0 1200 340" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="340" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#070B17"/>
-      <stop offset="0.52" stop-color="#10162A"/>
-      <stop offset="1" stop-color="#090D1A"/>
+      <stop stop-color="#030712"/>
+      <stop offset="0.48" stop-color="#07152D"/>
+      <stop offset="1" stop-color="#170A32"/>
     </linearGradient>
-    <linearGradient id="accent" x1="330" y1="80" x2="880" y2="250" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#38BDF8"/>
-      <stop offset="0.52" stop-color="#818CF8"/>
-      <stop offset="1" stop-color="#C084FC"/>
+    <linearGradient id="accent" x1="260" y1="70" x2="940" y2="260" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#22D3EE"/>
+      <stop offset="0.48" stop-color="#60A5FA"/>
+      <stop offset="1" stop-color="#A78BFA"/>
     </linearGradient>
-    <radialGradient id="glowLeft" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(225 180) rotate(20) scale(360 250)">
-      <stop stop-color="#2563EB" stop-opacity="0.22"/>
-      <stop offset="1" stop-color="#2563EB" stop-opacity="0"/>
+    <linearGradient id="signal" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#22D3EE" stop-opacity="0"/>
+      <stop offset="0.24" stop-color="#22D3EE" stop-opacity="0.9"/>
+      <stop offset="0.7" stop-color="#A78BFA" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#A78BFA" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="leftGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(175 180) rotate(14) scale(430 260)">
+      <stop stop-color="#0EA5E9" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#0EA5E9" stop-opacity="0"/>
     </radialGradient>
-    <radialGradient id="glowRight" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1000 85) rotate(145) scale(300 220)">
-      <stop stop-color="#7C3AED" stop-opacity="0.20"/>
-      <stop offset="1" stop-color="#7C3AED" stop-opacity="0"/>
+    <radialGradient id="rightGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1010 65) rotate(142) scale(360 250)">
+      <stop stop-color="#8B5CF6" stop-opacity="0.25"/>
+      <stop offset="1" stop-color="#8B5CF6" stop-opacity="0"/>
     </radialGradient>
-    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
-      <path d="M48 0L0 0 0 48" fill="none" stroke="#8B9DCB" stroke-opacity="0.055" stroke-width="1"/>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#93C5FD" stroke-opacity="0.045" stroke-width="1"/>
     </pattern>
-    <filter id="softGlow" x="-30%" y="-30%" width="160%" height="160%">
-      <feGaussianBlur stdDeviation="9"/>
+    <filter id="glow" x="-30%" y="-80%" width="160%" height="260%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
   </defs>
 
   <rect width="1200" height="340" rx="24" fill="url(#bg)"/>
   <rect width="1200" height="340" rx="24" fill="url(#grid)"/>
-  <rect width="1200" height="340" rx="24" fill="url(#glowLeft)"/>
-  <rect width="1200" height="340" rx="24" fill="url(#glowRight)"/>
+  <rect width="1200" height="340" rx="24" fill="url(#leftGlow)"/>
+  <rect width="1200" height="340" rx="24" fill="url(#rightGlow)"/>
 
-  <g opacity="0.74">
-    <circle cx="90" cy="72" r="2" fill="#E0F2FE"/>
-    <circle cx="178" cy="118" r="1.5" fill="#A5B4FC"/>
-    <circle cx="303" cy="54" r="1.7" fill="#C4B5FD"/>
-    <circle cx="426" cy="101" r="1.3" fill="#BAE6FD"/>
-    <circle cx="560" cy="47" r="2" fill="#A5B4FC"/>
-    <circle cx="697" cy="88" r="1.4" fill="#E0E7FF"/>
-    <circle cx="815" cy="45" r="1.7" fill="#C4B5FD"/>
-    <circle cx="932" cy="113" r="1.5" fill="#BAE6FD"/>
-    <circle cx="1082" cy="62" r="2" fill="#DDD6FE"/>
-    <circle cx="131" cy="255" r="1.7" fill="#C4B5FD"/>
-    <circle cx="269" cy="293" r="1.3" fill="#BAE6FD"/>
-    <circle cx="908" cy="270" r="1.8" fill="#C4B5FD"/>
-    <circle cx="1087" cy="292" r="1.5" fill="#E0F2FE"/>
+  <g opacity="0.7">
+    <circle cx="76" cy="66" r="1.7" fill="#E0F2FE"/>
+    <circle cx="170" cy="42" r="1.4" fill="#A5F3FC"/>
+    <circle cx="287" cy="90" r="1.3" fill="#93C5FD"/>
+    <circle cx="430" cy="34" r="1.5" fill="#C4B5FD"/>
+    <circle cx="607" cy="65" r="1.4" fill="#E0E7FF"/>
+    <circle cx="824" cy="43" r="1.6" fill="#C4B5FD"/>
+    <circle cx="1029" cy="75" r="1.4" fill="#A5F3FC"/>
+    <circle cx="1118" cy="121" r="1.7" fill="#BAE6FD"/>
+    <circle cx="192" cy="286" r="1.4" fill="#C4B5FD"/>
+    <circle cx="923" cy="280" r="1.6" fill="#DDD6FE"/>
   </g>
 
-  <g opacity="0.42">
-    <path d="M60 270C220 188 334 289 494 216C648 146 758 210 1140 116" stroke="url(#accent)" stroke-width="1.2"/>
-    <path d="M67 284C249 219 352 302 504 238C689 160 829 222 1137 151" stroke="#38BDF8" stroke-opacity="0.30" stroke-width="1"/>
-    <circle cx="494" cy="216" r="4" fill="#818CF8"/>
-    <circle cx="494" cy="216" r="12" fill="#818CF8" fill-opacity="0.16" filter="url(#softGlow)"/>
-    <circle cx="829" cy="222" r="3" fill="#38BDF8"/>
+  <g opacity="0.5">
+    <path d="M56 274C161 236 218 271 316 231C414 191 492 211 579 193C682 172 744 191 840 168C947 143 1038 151 1144 104" stroke="#1D4ED8" stroke-opacity="0.62" stroke-width="1"/>
+    <path d="M62 291C166 256 230 291 329 253C427 215 514 234 604 215C699 196 758 211 853 190C959 166 1049 175 1138 145" stroke="url(#signal)" stroke-width="1.7"/>
+    <circle cx="604" cy="215" r="4" fill="#60A5FA"/>
+    <circle cx="853" cy="190" r="3.5" fill="#A78BFA"/>
+    <circle cx="329" cy="253" r="3" fill="#22D3EE"/>
+  </g>
+
+  <g opacity="0.38" stroke="url(#accent)" stroke-width="1.2">
+    <path d="M104 143H198L226 115H300"/>
+    <path d="M900 119H972L1000 91H1080"/>
+    <path d="M112 218H182L210 246H282"/>
+    <path d="M930 226H1004L1040 258H1100"/>
   </g>
 
   <g text-anchor="middle">
-    <text x="600" y="142" fill="url(#accent)" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="50" font-weight="800" letter-spacing="8">RATANAK SUON</text>
-    <text x="600" y="190" fill="#E5E7EB" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="22" font-weight="500" letter-spacing="2.2">SOFTWARE ENGINEERING · AI SYSTEMS · AUTOMATION</text>
-    <line x1="390" y1="218" x2="810" y2="218" stroke="url(#accent)" stroke-width="2" stroke-linecap="round"/>
-    <text x="600" y="258" fill="#94A3B8" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="17" letter-spacing="1.1">BUILDING RELIABLE SOFTWARE AND INTELLIGENT TOOLS</text>
+    <text x="600" y="102" fill="#7DD3FC" font-family="JetBrains Mono,Consolas,monospace" font-size="14" letter-spacing="4">&gt; AI SYSTEMS // AUTOMATION // SOFTWARE</text>
+    <text x="600" y="162" fill="url(#accent)" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="56" font-weight="800" letter-spacing="8" filter="url(#glow)">NAKNAKGEO</text>
+    <text x="600" y="205" fill="#E5E7EB" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="20" font-weight="600" letter-spacing="2.6">AI ENGINEERING · AGENTIC SYSTEMS · INTELLIGENT AUTOMATION</text>
+    <line x1="370" y1="228" x2="830" y2="228" stroke="url(#signal)" stroke-width="2.5" stroke-linecap="round"/>
+    <text x="600" y="266" fill="#94A3B8" font-family="JetBrains Mono,Consolas,monospace" font-size="16" letter-spacing="1.6">BUILDING CONNECTED INTELLIGENCE FOR REAL SYSTEMS</text>
   </g>
 
-  <rect x="1" y="1" width="1198" height="338" rx="23" stroke="url(#accent)" stroke-opacity="0.24" stroke-width="2"/>
+  <rect x="1" y="1" width="1198" height="338" rx="23" stroke="url(#accent)" stroke-opacity="0.3" stroke-width="2"/>
 </svg>
