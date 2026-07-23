@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./assets/header_profile_v3.svg" width="100%" alt="NakNakGEO — software engineering, AI systems, and automation" />
+  <img src="./assets/header_animated.svg" width="100%" alt="NakNakGEO — software engineering, AI systems, infrastructure, and automation" />
 </div>
 
 <br>
@@ -13,14 +13,16 @@
 
 ## About
 
-I build backend systems, AI-powered tools, and automation for real-world workflows.
+I build backend systems, AI-powered tools, infrastructure, and automation for real-world workflows.
 
 My main areas of interest are:
 
-- AI agents and developer tooling
-- backend services and system architecture
-- local AI infrastructure and model serving
+- AI agents, LLM tooling, and intelligent workflows
+- backend services, APIs, and system architecture
+- local AI infrastructure, model serving, and orchestration
 - machine learning, research systems, and automation
+- server, network, and deployment infrastructure
+- enterprise workflow systems, access control, and operational reliability
 
 ## Core stack
 
@@ -45,7 +47,7 @@ My main areas of interest are:
       <p>
         A private engineering environment for coordinating specialized agents, development workflows, research tasks, project memory, and local or cloud model execution.
       </p>
-      <p><strong>Focus:</strong> orchestration, tool use, knowledge retrieval, evaluation, observability, and secure automation.</p>
+      <p><strong>Focus:</strong> orchestration, tool use, retrieval, evaluation, observability, and secure automation.</p>
     </td>
     <td width="50%" valign="top">
       <h3 align="center">AI Trading Research</h3>
@@ -64,11 +66,11 @@ My main areas of interest are:
       <p><strong>Focus:</strong> inference routing, model serving, GPU utilization, indexing, privacy, and reliability.</p>
     </td>
     <td width="50%" valign="top">
-      <h3 align="center">Enterprise Automation</h3>
+      <h3 align="center">Infrastructure & Operations</h3>
       <p>
-        Backend services and workflow solutions for approvals, identity integration, reporting, business rules, and operational process automation.
+        Practical work across servers, networking, deployment environments, system reliability, and enterprise workflow operations.
       </p>
-      <p><strong>Focus:</strong> C#, SQL Server, APIs, workflow engines, access control, and maintainable production systems.</p>
+      <p><strong>Focus:</strong> Linux systems, Docker, networking, deployment, monitoring, access control, and maintainable production systems.</p>
     </td>
   </tr>
 </table>
@@ -92,5 +94,5 @@ My main areas of interest are:
 ---
 
 <div align="center">
-  <sub>Building reliable software and useful AI systems.</sub>
+  <sub>Building reliable software, AI systems, and infrastructure.</sub>
 </div>
